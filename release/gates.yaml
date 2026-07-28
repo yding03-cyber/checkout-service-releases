@@ -1,0 +1,15 @@
+release:
+  train: 4.2.0
+gates:
+  - name: Security scan
+    required: true
+  - name: Load testing
+    required: true
+  - name: Unit test coverage
+    required: true
+  - name: Localization review
+    required: true
+  - name: Rollback plan review
+    required: true
+  - name: On-call readiness
+    required: true
